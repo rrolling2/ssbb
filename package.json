@@ -1,0 +1,13 @@
+{
+  "name": "sokmaeum-web",
+  "version": "1.0.0",
+  "description": "속마음 프론트엔드 - 정적 파일(index.html, admin.html)을 그대로 서빙",
+  "private": true,
+  "scripts": {
+    "start": "serve -l 5500",
+    "dev": "serve -l 5500"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

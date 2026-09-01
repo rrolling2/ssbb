@@ -42,8 +42,9 @@ npm start
 
 ```bash
 cd web
-npx serve -l 5500
-# 또는: python3 -m http.server 5500
+npm install
+npm start
+# (package.json 없이 바로 띄우고 싶다면: npx serve -l 5500 또는 python3 -m http.server 5500)
 ```
 
 `http://localhost:5500`으로 접속하고, 서버 `.env`의 `ALLOWED_ORIGIN=http://localhost:5500`으로 맞춰주세요.
